@@ -33,7 +33,6 @@ async function jayson() {
     page(x);
     setInterval(()=>{
         x>=4 ? x=0 : x++;
-        console.log(x);
         page(x);
     },5000)
 }
